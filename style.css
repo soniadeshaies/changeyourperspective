@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Irish+Grover&family=Odibee+Sans&family=Slackey&display=swap');
+@import url('https://use.typekit.net/fdy2gob.css');
+
+
+body{
+    /* background-color: black; */
+    color: black;
+    margin: 0;
+    font-family: "blackcurrant-squash", sans-serif;
+}
+
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#color-input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 50%;
+    margin: auto;
+}
+
+/* #room {
+    background-image: url('img/room.png');
+    background-size: cover;
+    background-position: center;
+} */
+
+.next{
+    text-align: center;
+    align-content: center;
+}
+
+#next {
+    background-color: white;
+}
+
+#no {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* #answer{
+    width: 800px;
+} */
+
+.eye{
+    transition: all .2s ease-in-out;
+}
+
+.eye:hover{
+    transform: scale(1.1);
+}
+
+.eyes{
+    transition: all .001s ease-in-out;
+}
+
+.eyes:hover:hover{
+    transform: scale(1.1);
+}
+
+.a:hover {
+    opacity: 70%;
+}
+
+#ocean {
+    background-image: url('img/ocean_back.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.error {
+    background-image: url('img/error.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+.confirm {
+    display: none;
+    background-color: #F3F5F6;
+    color: #000000;
+    border: 1px solid #aaa;
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    left: 40%;
+    top: 40%;
+    box-sizing: border-box;
+    text-align: center;
+ }
+
+ .texty {
+    z-index: 2;
+    position: absolute;
+ }
+
+ #welcome {
+    background-image: url('img/welcome.gif');
+    background-size: cover;
+    background-position: center;
+ }

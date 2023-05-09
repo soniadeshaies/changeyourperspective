@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* This allows you to be able to position html elements starting from the top left instead of displaying as block under p5.js canvas */
+#html-body{
+    position: absolute;
+    top: 400;
+    left: 600;
+}
+
+h1 {
+   font-size: x-large;
+   font-family: 'Times New Roman', Times, serif;
+}
