@@ -50,7 +50,7 @@ function displayCat() {
 }
 
 function bear(){
-  let bear = createImg("img/no.gif");
+  let bear = createImg("img/yas.gif");
   let eyes = createImg("img/open-eye2.png")
   
   bear.size(windowWidth, windowHeight);
