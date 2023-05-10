@@ -3,6 +3,8 @@ let bubbles = [];
 let star = [];
 let flowers = [];
 
+let car;
+
 function preload() {
   for (let i = 0; i < 5; i++) {
     star[i] = loadImage(`img/flower${i}.png`);
@@ -10,12 +12,16 @@ function preload() {
   for (let i = 0; i < 5; i++) {
     flowers[i] = loadImage(`img/dark${i}.png`);
   }
+  soundFormats('mp3', 'ogg');
+    car = loadSound('audio/car.mp3');
 }
 
 function setup() {
 
   let cnv = createCanvas(windowWidth, windowHeight);
   cnv.parent('mySketch');
+  
+  car.play();
 
   // background('white');
   // alert("YOU are boring");
