@@ -1,5 +1,13 @@
 let mode = 1;
 
+let love;
+
+function preload(){
+
+  soundFormats('mp3', 'ogg');
+  love = loadSound('audio/love.mp3');
+}
+
 function setup() {
     let cnv = createCanvas(windowWidth, windowHeight);
     cnv.parent('mySketch');
@@ -51,7 +59,9 @@ function displayCat() {
 
 function bear(){
   let bear = createImg("img/yas.gif");
-  let eyes = createImg("img/open-eye2.png")
+  let eyes = createImg("img/open-eye2.png");
+    
+  love.play()
   
   bear.size(windowWidth, windowHeight);
   bear.position(0,0);
